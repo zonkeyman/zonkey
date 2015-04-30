@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CE122B331AE90D660004B1B0 /* zDossier.m in Sources */ = {isa = PBXBuildFile; fileRef = CE122B321AE90D660004B1B0 /* zDossier.m */; };
 		F419149E158D558600E54887 /* DossierDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F419149D158D558600E54887 /* DossierDetailViewController.m */; };
 		F447242715D78F07004A8C72 /* Dossier.m in Sources */ = {isa = PBXBuildFile; fileRef = F447242615D78F07004A8C72 /* Dossier.m */; };
 		F447242B15D7B22E004A8C72 /* photo-frame.png in Resources */ = {isa = PBXBuildFile; fileRef = F447242915D7B22D004A8C72 /* photo-frame.png */; };
@@ -38,8 +37,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		CE122B311AE90D0D0004B1B0 /* zDossier.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = zDossier.h; sourceTree = "<group>"; };
-		CE122B321AE90D660004B1B0 /* zDossier.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = zDossier.m; sourceTree = "<group>"; };
 		F419149C158D558600E54887 /* DossierDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DossierDetailViewController.h; sourceTree = "<group>"; };
 		F419149D158D558600E54887 /* DossierDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DossierDetailViewController.m; sourceTree = "<group>"; };
 		F447242515D78F07004A8C72 /* Dossier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dossier.h; sourceTree = "<group>"; };
@@ -166,8 +163,6 @@
 				F4DAE75917B698FA006A879A /* NewDossierViewController.m */,
 				F447242515D78F07004A8C72 /* Dossier.h */,
 				F447242615D78F07004A8C72 /* Dossier.m */,
-				CE122B311AE90D0D0004B1B0 /* zDossier.h */,
-				CE122B321AE90D660004B1B0 /* zDossier.m */,
 				F4AA6C321589A2DF0093D97E /* Supporting Files */,
 			);
 			path = Zonkey;
@@ -262,7 +257,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE122B331AE90D660004B1B0 /* zDossier.m in Sources */,
 				F4AA6C381589A2DF0093D97E /* main.m in Sources */,
 				F4AA6C3C1589A2DF0093D97E /* ZonkeyAppDelegate.m in Sources */,
 				F4AA6C421589A2DF0093D97E /* ZonkeyMainViewController.m in Sources */,
