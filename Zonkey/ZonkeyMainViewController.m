@@ -24,7 +24,7 @@
         // Custom the table
         
         // The className to query on
-        self.parseClassName = @"Recipe";
+        self.parseClassName = @"Dossier";
         
         // The key of the PFObject to display in the label of the default cell style
         self.textKey = @"name";
@@ -92,7 +92,7 @@
 // a UITableViewCellStyleDefault style cell with the label being the first key in the object.
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath object:(PFObject *)object
 {
-    static NSString *simpleTableIdentifier = @"RecipeCell";
+    static NSString *simpleTableIdentifier = @"DossierCell";
     
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:simpleTableIdentifier];
     if (cell == nil) {
@@ -100,17 +100,24 @@
     }
     
     // Configure the cell
+    /*
     PFFile *thumbnail = [object objectForKey:@"imageFile"];
     PFImageView *thumbnailImageView = (PFImageView*)[cell viewWithTag:100];
     thumbnailImageView.image = [UIImage imageNamed:@"placeholder.jpg"];
     thumbnailImageView.file = thumbnail;
     [thumbnailImageView loadInBackground];
+    */
     
     UILabel *nameLabel = (UILabel*) [cell viewWithTag:101];
-    nameLabel.text = [object objectForKey:@"name"];
+    nameLabel.text = [object objectForKey:@"naam"];
     
-    UILabel *prepTimeLabel = (UILabel*) [cell viewWithTag:102];
-    prepTimeLabel.text = [object objectForKey:@"prepTime"];
+    UILabel *postcodeLabel = (UILabel*) [cell viewWithTag:102];
+    postcodeLabel.text = [object objectForKey:@"postcode"];
+    
+    // this does not work; doesn't populate the tag
+    
+    UILabel *adresLabel = (UILabel*) [cell viewWithTag: 103];
+    adresLabel.text = [object objectForKey:@"adres"];
         
     return cell;
 }
