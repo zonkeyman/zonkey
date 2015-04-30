@@ -17,6 +17,7 @@
 @synthesize prepTimeLabel;
 @synthesize ingredientTextView;
 @synthesize recipe;
+@synthesize postcodeLabel;
 
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil

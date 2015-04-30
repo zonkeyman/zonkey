@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CEFD1A531AF25F0700D1702E /* werkDossier.m in Sources */ = {isa = PBXBuildFile; fileRef = CEFD1A521AF25F0700D1702E /* werkDossier.m */; };
 		F419149E158D558600E54887 /* DossierDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F419149D158D558600E54887 /* DossierDetailViewController.m */; };
 		F447242715D78F07004A8C72 /* Dossier.m in Sources */ = {isa = PBXBuildFile; fileRef = F447242615D78F07004A8C72 /* Dossier.m */; };
 		F447242B15D7B22E004A8C72 /* photo-frame.png in Resources */ = {isa = PBXBuildFile; fileRef = F447242915D7B22D004A8C72 /* photo-frame.png */; };
@@ -37,6 +38,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CEFD1A511AF25EEF00D1702E /* werkDossier.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = werkDossier.h; sourceTree = "<group>"; };
+		CEFD1A521AF25F0700D1702E /* werkDossier.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = werkDossier.m; sourceTree = "<group>"; };
 		F419149C158D558600E54887 /* DossierDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DossierDetailViewController.h; sourceTree = "<group>"; };
 		F419149D158D558600E54887 /* DossierDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DossierDetailViewController.m; sourceTree = "<group>"; };
 		F447242515D78F07004A8C72 /* Dossier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dossier.h; sourceTree = "<group>"; };
@@ -163,6 +166,8 @@
 				F4DAE75917B698FA006A879A /* NewDossierViewController.m */,
 				F447242515D78F07004A8C72 /* Dossier.h */,
 				F447242615D78F07004A8C72 /* Dossier.m */,
+				CEFD1A511AF25EEF00D1702E /* werkDossier.h */,
+				CEFD1A521AF25F0700D1702E /* werkDossier.m */,
 				F4AA6C321589A2DF0093D97E /* Supporting Files */,
 			);
 			path = Zonkey;
@@ -259,6 +264,7 @@
 			files = (
 				F4AA6C381589A2DF0093D97E /* main.m in Sources */,
 				F4AA6C3C1589A2DF0093D97E /* ZonkeyAppDelegate.m in Sources */,
+				CEFD1A531AF25F0700D1702E /* werkDossier.m in Sources */,
 				F4AA6C421589A2DF0093D97E /* ZonkeyMainViewController.m in Sources */,
 				F419149E158D558600E54887 /* DossierDetailViewController.m in Sources */,
 				F447242715D78F07004A8C72 /* Dossier.m in Sources */,

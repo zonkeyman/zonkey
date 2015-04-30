@@ -13,6 +13,7 @@
 @property (weak, nonatomic) IBOutlet PFImageView *recipePhoto;
 @property (weak, nonatomic) IBOutlet UILabel *prepTimeLabel;
 @property (weak, nonatomic) IBOutlet UITextView *ingredientTextView;
+@property (weak, nonatomic) IBOutlet UILabel *postcodeLabel;
 
 @property (nonatomic, strong) Dossier *recipe;
 

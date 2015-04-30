@@ -234,12 +234,20 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Postcode" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="vYV-9a-07W">
+                                <rect key="frame" x="124" y="204" width="74" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="825-b7-Yiw"/>
                     <connections>
                         <outlet property="ingredientTextView" destination="3mo-jG-NwD" id="5Qn-5o-zxw"/>
+                        <outlet property="postcodeLabel" destination="vYV-9a-07W" id="xLs-Hp-OhX"/>
                         <outlet property="prepTimeLabel" destination="l4j-oD-PI4" id="RR0-Ce-cgx"/>
                         <outlet property="recipePhoto" destination="KKS-hm-ytN" id="iVN-Bw-o5T"/>
                     </connections>
