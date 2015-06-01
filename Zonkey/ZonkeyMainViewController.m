@@ -148,6 +148,10 @@
         
         dossier.naam = [object objectForKey:@"naam"];
         dossier.postcode = [object objectForKey:@"postcode"];
+        dossier.stad = [object objectForKey:@"stad"];
+        dossier.huisnummer = [object objectForKey:@"huisnr"];
+        dossier.adres = [object objectForKey:@"adres"];
+        dossier.omschrijving = [object objectForKey:@"omschrijving"];
         
         destViewController.dossier = dossier;
         

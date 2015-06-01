@@ -13,12 +13,13 @@
 
 @implementation DossierDetailViewController
 
-@synthesize recipePhoto;
-@synthesize prepTimeLabel;
-@synthesize ingredientTextView;
 @synthesize dossier;
 @synthesize postcodeLabel;
-
+@synthesize titelLabel;
+@synthesize huisnummerLabel;
+@synthesize straatLabel;
+@synthesize stadLabel;
+@synthesize omschrijvingLabel;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -32,10 +33,14 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-
-    self.title = dossier.naam;
     
-    self.prepTimeLabel.text = dossier.postcode;
+    self.titelLabel.text = dossier.naam;
+    self.straatLabel.text = dossier.adres;
+    self.huisnummerLabel.text = dossier.huisnummer;
+    self.stadLabel.text = dossier.stad;
+    self.postcodeLabel.text = dossier.postcode;
+    self.omschrijvingLabel.text = dossier.omschrijving;
+    
     //self.recipePhoto.file = recipe.imageFile;
     /*
     NSMutableString *ingredientText = [NSMutableString string];
@@ -48,9 +53,9 @@
 
 - (void)viewDidUnload
 {
-    [self setRecipePhoto:nil];
-    [self setPrepTimeLabel:nil];
-    [self setIngredientTextView:nil];
+    [self setStadLabel:nil];
+    [self setHuisnummerLabel:nil];
+    [self setStraatLabel:nil];
     [super viewDidUnload];
     // Release any retained subviews of the main view.
 }

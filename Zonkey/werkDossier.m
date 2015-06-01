@@ -15,5 +15,7 @@
 @synthesize postcode;
 @synthesize stad;
 @synthesize adres;
+@synthesize huisnummer;
+@synthesize omschrijving;
 
 @end

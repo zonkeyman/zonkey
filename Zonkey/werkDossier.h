@@ -10,9 +10,11 @@
 
 @interface werkDossier : NSObject
 
-@property (nonatomic, strong) NSString *naam; // name of dossier
-@property (nonatomic, strong) NSString *stad; // city of dossier
-@property (nonatomic, strong) NSString *postcode; // postcode of dossier
-@property (nonatomic, strong) NSString *adres; // address of dossier
+@property (nonatomic, strong) NSString *naam; // naam van dossier
+@property (nonatomic, strong) NSString *stad; // stad van dossier
+@property (nonatomic, strong) NSString *postcode; // postcode van dossier
+@property (nonatomic, strong) NSString *adres; // adres van dossier
+@property (nonatomic, strong) NSString *huisnummer; // huisnummer van dossier
+@property (nonatomic, strong) NSString *omschrijving; // omschrijving werkzaamheden
 
 @end
