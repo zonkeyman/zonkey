@@ -32,7 +32,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    
+
     self.title = recipe.name;
     self.prepTimeLabel.text = recipe.prepTime;
     self.recipePhoto.file = recipe.imageFile;
