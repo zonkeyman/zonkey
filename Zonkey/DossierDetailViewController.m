@@ -16,7 +16,7 @@
 @synthesize recipePhoto;
 @synthesize prepTimeLabel;
 @synthesize ingredientTextView;
-@synthesize recipe;
+@synthesize dossier;
 @synthesize postcodeLabel;
 
 
@@ -33,16 +33,17 @@
 {
     [super viewDidLoad];
 
-    self.title = recipe.name;
-    self.prepTimeLabel.text = recipe.prepTime;
-    self.recipePhoto.file = recipe.imageFile;
+    self.title = dossier.naam;
     
+    self.prepTimeLabel.text = dossier.postcode;
+    //self.recipePhoto.file = recipe.imageFile;
+    /*
     NSMutableString *ingredientText = [NSMutableString string];
     for (NSString* ingredient in recipe.ingredients) {
         [ingredientText appendFormat:@"%@\n", ingredient];
     }
     self.ingredientTextView.text = ingredientText;
-    
+    */
 }
 
 - (void)viewDidUnload

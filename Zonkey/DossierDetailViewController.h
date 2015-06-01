@@ -6,7 +6,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "Dossier.h"
+#import "werkDossier.h"
 
 @interface DossierDetailViewController : UIViewController
 
@@ -15,6 +15,6 @@
 @property (weak, nonatomic) IBOutlet UITextView *ingredientTextView;
 @property (weak, nonatomic) IBOutlet UILabel *postcodeLabel;
 
-@property (nonatomic, strong) Dossier *recipe;
+@property (nonatomic, strong) werkDossier *dossier;
 
 @end

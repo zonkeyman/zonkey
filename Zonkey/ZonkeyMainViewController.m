@@ -7,7 +7,7 @@
 
 #import "ZonkeyMainViewController.h"
 #import "DossierDetailViewController.h"
-#import "Dossier.h"
+#import "werkDossier.h"
 
 @interface ZonkeyMainViewController ()
 
@@ -27,7 +27,7 @@
         self.parseClassName = @"Dossier";
         
         // The key of the PFObject to display in the label of the default cell style
-        self.textKey = @"name";
+        self.textKey = @"naam";
         
         // Whether the built-in pull-to-refresh is enabled
         self.pullToRefreshEnabled = YES;
@@ -77,9 +77,9 @@
     
     // If no objects are loaded in memory, we look to the cache first to fill the table
     // and then subsequently do a query against the network.
-/*    if ([self.objects count] == 0) {
+    if ([self.objects count] == 0) {
         query.cachePolicy = kPFCachePolicyCacheThenNetwork;
-    }*/
+    }
     
 //    [query orderByAscending:@"name"];
     
@@ -144,12 +144,12 @@
         DossierDetailViewController *destViewController = segue.destinationViewController;
         
         PFObject *object = [self.objects objectAtIndex:indexPath.row];
-        Dossier *recipe = [[Dossier alloc] init];
-        recipe.name = [object objectForKey:@"name"];
-        recipe.imageFile = [object objectForKey:@"imageFile"];
-        recipe.prepTime = [object objectForKey:@"prepTime"];
-        recipe.ingredients = [object objectForKey:@"ingredients"];
-        destViewController.recipe = recipe;
+        werkDossier *dossier = [[werkDossier alloc] init];
+        
+        dossier.naam = [object objectForKey:@"naam"];
+        dossier.postcode = [object objectForKey:@"postcode"];
+        
+        destViewController.dossier = dossier;
         
     }
 }
