@@ -220,7 +220,7 @@
 		F4AA6C1E1589A2DF0093D97E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				CLASSPREFIX = RecipeBook;
+				CLASSPREFIX = ZonkeyApp;
 				LastUpgradeCheck = 0430;
 			};
 			buildConfigurationList = F4AA6C211589A2DF0093D97E /* Build configuration list for PBXProject "Zonkey" */;

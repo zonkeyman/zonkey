@@ -1,6 +1,6 @@
 //
 //  ZonkeyAppDelegate.m
-//  RecipeBook
+//  Zonkey
 //
 //  Created by Andrew Aird
 //

@@ -1,6 +1,5 @@
 //
-//  RecipeBookAppDelegate.h
-//  RecipeBook
+//  ZonkeyAppDelegate.h
 //
 //  Created by Andrew Aird
 //
