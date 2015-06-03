@@ -147,6 +147,9 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Chat Room" id="kJN-93-06V"/>
+                    <connections>
+                        <outlet property="tfEntry" destination="uHk-t9-zcJ" id="wYF-X3-iwt"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="g7e-eL-7XJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

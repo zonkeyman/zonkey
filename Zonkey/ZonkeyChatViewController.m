@@ -43,7 +43,7 @@
 
 -(IBAction) textFieldDoneEditing : (id) sender
 {
-    NSLog(@"the text content%@",tfEntry.text);
+    NSLog(@"the text content: %@",tfEntry.text);
     [sender resignFirstResponder];
     [tfEntry resignFirstResponder];
 }
