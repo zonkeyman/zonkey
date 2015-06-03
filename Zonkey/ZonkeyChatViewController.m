@@ -55,7 +55,7 @@
 
 - (BOOL)textFieldShouldReturn:(UITextField *)textField
 {
-    NSLog(@"the text content%@",tfEntry.text);
+    NSLog(@"the text content: %@",tfEntry.text);
     [textField resignFirstResponder];
     
     if (tfEntry.text.length>0) {
