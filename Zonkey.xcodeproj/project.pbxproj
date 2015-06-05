@@ -43,8 +43,8 @@
 		CE9130721B1E01E4000A7D02 /* ZonkeyChatCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZonkeyChatCell.m; sourceTree = "<group>"; };
 		CE9130741B1E06B4000A7D02 /* ZonkeyChatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZonkeyChatViewController.h; sourceTree = "<group>"; };
 		CE9130751B1E06B4000A7D02 /* ZonkeyChatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZonkeyChatViewController.m; sourceTree = "<group>"; };
-		CE9130841B21A42B000A7D02 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
-		CE9130851B21A42B000A7D02 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		CE9130841B21A42B000A7D02 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Reachability.h; path = ../Reachability.h; sourceTree = "<group>"; };
+		CE9130851B21A42B000A7D02 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Reachability.m; path = ../Reachability.m; sourceTree = "<group>"; };
 		CEFD1A511AF25EEF00D1702E /* werkDossier.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = werkDossier.h; sourceTree = "<group>"; };
 		CEFD1A521AF25F0700D1702E /* werkDossier.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = werkDossier.m; sourceTree = "<group>"; };
 		F419149C158D558600E54887 /* DossierDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DossierDetailViewController.h; sourceTree = "<group>"; };
@@ -120,8 +120,6 @@
 		F4AA6C1C1589A2DF0093D97E = {
 			isa = PBXGroup;
 			children = (
-				CE9130841B21A42B000A7D02 /* Reachability.h */,
-				CE9130851B21A42B000A7D02 /* Reachability.m */,
 				F4AA6C311589A2DF0093D97E /* Zonkey */,
 				F4AA6C2A1589A2DF0093D97E /* Frameworks */,
 				F4AA6C281589A2DF0093D97E /* Products */,
@@ -173,6 +171,8 @@
 				CEFD1A521AF25F0700D1702E /* werkDossier.m */,
 				CE9130711B1E01E4000A7D02 /* ZonkeyChatCell.h */,
 				CE9130721B1E01E4000A7D02 /* ZonkeyChatCell.m */,
+				CE9130841B21A42B000A7D02 /* Reachability.h */,
+				CE9130851B21A42B000A7D02 /* Reachability.m */,
 				F4AA6C321589A2DF0093D97E /* Supporting Files */,
 			);
 			path = Zonkey;
