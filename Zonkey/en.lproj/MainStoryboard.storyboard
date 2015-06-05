@@ -132,6 +132,10 @@
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="Qvf-v7-7II" id="woY-nX-h6h"/>
+                                    <outlet property="delegate" destination="Qvf-v7-7II" id="Ojd-OT-iKr"/>
+                                </connections>
                             </tableView>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" id="uHk-t9-zcJ">
                                 <rect key="frame" x="3" y="369" width="315" height="30"/>
@@ -148,12 +152,13 @@
                     </view>
                     <tabBarItem key="tabBarItem" title="Chat Room" id="kJN-93-06V"/>
                     <connections>
+                        <outlet property="chatTable" destination="SPp-rQ-jPw" id="fpA-zZ-DNK"/>
                         <outlet property="tfEntry" destination="uHk-t9-zcJ" id="wYF-X3-iwt"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="g7e-eL-7XJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1845" y="971"/>
+            <point key="canvasLocation" x="1855" y="1005"/>
         </scene>
         <!--Title-->
         <scene sceneID="5Ms-qY-lRu">

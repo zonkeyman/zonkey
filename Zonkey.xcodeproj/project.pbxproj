@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		CE9130731B1E01E4000A7D02 /* ZonkeyChatCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CE9130721B1E01E4000A7D02 /* ZonkeyChatCell.m */; };
 		CE9130761B1E06B4000A7D02 /* ZonkeyChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE9130751B1E06B4000A7D02 /* ZonkeyChatViewController.m */; };
+		CE9130861B21A42B000A7D02 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = CE9130851B21A42B000A7D02 /* Reachability.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		CEFD1A531AF25F0700D1702E /* werkDossier.m in Sources */ = {isa = PBXBuildFile; fileRef = CEFD1A521AF25F0700D1702E /* werkDossier.m */; };
 		F419149E158D558600E54887 /* DossierDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F419149D158D558600E54887 /* DossierDetailViewController.m */; };
 		F447242B15D7B22E004A8C72 /* photo-frame.png in Resources */ = {isa = PBXBuildFile; fileRef = F447242915D7B22D004A8C72 /* photo-frame.png */; };
@@ -42,6 +43,8 @@
 		CE9130721B1E01E4000A7D02 /* ZonkeyChatCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZonkeyChatCell.m; sourceTree = "<group>"; };
 		CE9130741B1E06B4000A7D02 /* ZonkeyChatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZonkeyChatViewController.h; sourceTree = "<group>"; };
 		CE9130751B1E06B4000A7D02 /* ZonkeyChatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZonkeyChatViewController.m; sourceTree = "<group>"; };
+		CE9130841B21A42B000A7D02 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		CE9130851B21A42B000A7D02 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
 		CEFD1A511AF25EEF00D1702E /* werkDossier.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = werkDossier.h; sourceTree = "<group>"; };
 		CEFD1A521AF25F0700D1702E /* werkDossier.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = werkDossier.m; sourceTree = "<group>"; };
 		F419149C158D558600E54887 /* DossierDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DossierDetailViewController.h; sourceTree = "<group>"; };
@@ -117,6 +120,8 @@
 		F4AA6C1C1589A2DF0093D97E = {
 			isa = PBXGroup;
 			children = (
+				CE9130841B21A42B000A7D02 /* Reachability.h */,
+				CE9130851B21A42B000A7D02 /* Reachability.m */,
 				F4AA6C311589A2DF0093D97E /* Zonkey */,
 				F4AA6C2A1589A2DF0093D97E /* Frameworks */,
 				F4AA6C281589A2DF0093D97E /* Products */,
@@ -166,9 +171,9 @@
 				F419149D158D558600E54887 /* DossierDetailViewController.m */,
 				CEFD1A511AF25EEF00D1702E /* werkDossier.h */,
 				CEFD1A521AF25F0700D1702E /* werkDossier.m */,
-				F4AA6C321589A2DF0093D97E /* Supporting Files */,
 				CE9130711B1E01E4000A7D02 /* ZonkeyChatCell.h */,
 				CE9130721B1E01E4000A7D02 /* ZonkeyChatCell.m */,
+				F4AA6C321589A2DF0093D97E /* Supporting Files */,
 			);
 			path = Zonkey;
 			sourceTree = "<group>";
@@ -269,6 +274,7 @@
 				CE9130761B1E06B4000A7D02 /* ZonkeyChatViewController.m in Sources */,
 				F419149E158D558600E54887 /* DossierDetailViewController.m in Sources */,
 				F4DAE76017B7656C006A879A /* MBProgressHUD.m in Sources */,
+				CE9130861B21A42B000A7D02 /* Reachability.m in Sources */,
 				CE9130731B1E01E4000A7D02 /* ZonkeyChatCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -350,6 +356,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Zonkey/Zonkey-Prefix.pch";
 				INFOPLIST_FILE = "Zonkey/Zonkey-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = Zonkey;
 				WRAPPER_EXTENSION = app;
 			};
@@ -365,6 +372,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Zonkey/Zonkey-Prefix.pch";
 				INFOPLIST_FILE = "Zonkey/Zonkey-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = Zonkey;
 				WRAPPER_EXTENSION = app;
 			};
